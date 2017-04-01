@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+       xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context="com.example.joudialfattal.SkillsExchange.contactus">
+        <group android:checkableBehavior="single">
+            <item
+                android:checked="true"
+                android:id="@+id/findskill"
+                android:orderInCategory="2"
+                app:showAsAction="never"
+                android:title="@string/FindSkill"
+                />
+            <item
+                android:id="@+id/aboutus"
+                android:orderInCategory="1"
+                app:showAsAction="never"
+                android:title="@string/aboutus" />
+
+            <item
+                android:id="@+id/contactus"
+                android:orderInCategory="3"
+                app:showAsAction="never"
+                android:title="@string/Contactus"/>
+            <item
+                android:id="@+id/logout"
+                android:orderInCategory="3"
+                app:showAsAction="never"
+                android:title="@string/LogOut"
+                />
+        </group>
+    </menu>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">SEC</string>
+    <string name="aboutus">About Us</string>
+    <string name="FindSkill">Find A Skill</string>
+    <string name="Contactus">Contact Us</string>
+    <string name="LogOut"> Log Out</string>
+    <string name="contact_us">Contact Us</string>
+
+
+    <string name="drawer_open">open</string>
+    <string name="drawer_close">close</string>
+
+
+</resources>

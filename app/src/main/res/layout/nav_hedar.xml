@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center|left"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="196dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:layout_width="96dp"
+        android:layout_height="108dp"
+        android:src="@mipmap/seclogo"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        />
+
+
+    <TextView
+        android:layout_gravity="center"
+        android:text="Skills Exchange Cypurs"
+        android:layout_width="172dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/appname"
+        android:fontFamily="casual"
+        android:textSize="18sp"
+        android:textColor="#9C27B0"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"/>
+
+</LinearLayout>

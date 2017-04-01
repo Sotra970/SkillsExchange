@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    app:cardElevation="1dp"
+    android:layout_margin="8dp"
+    app:cardCornerRadius="8dp"
+    android:layout_gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/aboutLayout">
+<LinearLayout
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <FrameLayout
+            android:elevation="1dp"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginLeft="12dp"
+                android:layout_gravity="center|left"
+                android:tint="@color/white"
+                android:src="@drawable/ic_close_black_48dp"
+                android:id="@+id/close"
+                android:layout_width="31dp"
+                android:layout_height="31dp" />
+            <TextView
+                android:layout_gravity="center"
+                android:text="About S.E.C. "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_margin="12dp"
+                android:id="@+id/aboutTitle"
+                android:fontFamily="casual"
+                android:textSize="24sp"
+                android:textColor="@color/white"
+                android:textStyle="bold"/>
+        </FrameLayout>
+
+    <TextView
+        android:id="@+id/descText"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/aboutTitle"
+        android:layout_alignStart="@+id/aboutTitle"
+        android:layout_below="@+id/aboutTitle"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:lineSpacingExtra="8sp"
+        android:text="We are a group of individuals who are passionate about enterpreneurship and encouraging people to become enterpreneurs. Thus, enabling an environment where people can exhcange thei skills to satisfy their necessities, is an amazing way to help people to become enterpeneurs by making use of their skills. "
+        android:textColor="#6A1B9A"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:includeFontPadding="false"
+        android:fontFamily="casual"
+        android:textSize="18sp" />
+</LinearLayout>
+</android.support.v7.widget.CardView>
